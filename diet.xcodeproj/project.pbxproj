@@ -10,11 +10,16 @@
 		CF70A059259EC5E400C74652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A058259EC5E400C74652 /* AppDelegate.swift */; };
 		CF70A05B259EC5E400C74652 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A05A259EC5E400C74652 /* SceneDelegate.swift */; };
 		CF70A05D259EC5E400C74652 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A05C259EC5E400C74652 /* ViewController.swift */; };
-		CF70A060259EC5E400C74652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF70A05E259EC5E400C74652 /* Main.storyboard */; };
 		CF70A062259EC5ED00C74652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF70A061259EC5ED00C74652 /* Assets.xcassets */; };
 		CF70A065259EC5ED00C74652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF70A063259EC5ED00C74652 /* LaunchScreen.storyboard */; };
 		CF70A070259EC5EE00C74652 /* dietTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A06F259EC5EE00C74652 /* dietTests.swift */; };
 		CF70A07B259EC5EE00C74652 /* dietUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A07A259EC5EE00C74652 /* dietUITests.swift */; };
+		CF70A0BF259ED4A700C74652 /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A0BD259ED4A700C74652 /* DietViewController.swift */; };
+		CF70A0CB259FF70E00C74652 /* RecodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A0CA259FF70E00C74652 /* RecodeView.swift */; };
+		CF70A0DB25A0054A00C74652 /* DietView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A0DA25A0054A00C74652 /* DietView.swift */; };
+		CF70A12B25A1611000C74652 /* AnalsysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A12A25A1611000C74652 /* AnalsysViewController.swift */; };
+		CF70A13025A161AF00C74652 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A12F25A161AF00C74652 /* MainTabBarController.swift */; };
+		CF70A13525A1BB4A00C74652 /* AnalsysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A13425A1BB4A00C74652 /* AnalsysView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		CF70A058259EC5E400C74652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF70A05A259EC5E400C74652 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CF70A05C259EC5E400C74652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CF70A05F259EC5E400C74652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF70A061259EC5ED00C74652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF70A064259EC5ED00C74652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF70A066259EC5ED00C74652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		CF70A076259EC5EE00C74652 /* dietUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dietUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF70A07A259EC5EE00C74652 /* dietUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dietUITests.swift; sourceTree = "<group>"; };
 		CF70A07C259EC5EE00C74652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF70A0BD259ED4A700C74652 /* DietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
+		CF70A0CA259FF70E00C74652 /* RecodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecodeView.swift; sourceTree = "<group>"; };
+		CF70A0DA25A0054A00C74652 /* DietView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietView.swift; sourceTree = "<group>"; };
+		CF70A12A25A1611000C74652 /* AnalsysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalsysViewController.swift; sourceTree = "<group>"; };
+		CF70A12F25A161AF00C74652 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		CF70A13425A1BB4A00C74652 /* AnalsysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalsysView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +112,15 @@
 				CF70A058259EC5E400C74652 /* AppDelegate.swift */,
 				CF70A05A259EC5E400C74652 /* SceneDelegate.swift */,
 				CF70A05C259EC5E400C74652 /* ViewController.swift */,
-				CF70A05E259EC5E400C74652 /* Main.storyboard */,
 				CF70A061259EC5ED00C74652 /* Assets.xcassets */,
 				CF70A063259EC5ED00C74652 /* LaunchScreen.storyboard */,
 				CF70A066259EC5ED00C74652 /* Info.plist */,
+				CF70A0BD259ED4A700C74652 /* DietViewController.swift */,
+				CF70A0CA259FF70E00C74652 /* RecodeView.swift */,
+				CF70A0DA25A0054A00C74652 /* DietView.swift */,
+				CF70A12A25A1611000C74652 /* AnalsysViewController.swift */,
+				CF70A12F25A161AF00C74652 /* MainTabBarController.swift */,
+				CF70A13425A1BB4A00C74652 /* AnalsysView.swift */,
 			);
 			path = diet;
 			sourceTree = "<group>";
@@ -233,7 +248,6 @@
 			files = (
 				CF70A065259EC5ED00C74652 /* LaunchScreen.storyboard in Resources */,
 				CF70A062259EC5ED00C74652 /* Assets.xcassets in Resources */,
-				CF70A060259EC5E400C74652 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +272,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF70A0DB25A0054A00C74652 /* DietView.swift in Sources */,
+				CF70A0CB259FF70E00C74652 /* RecodeView.swift in Sources */,
+				CF70A13525A1BB4A00C74652 /* AnalsysView.swift in Sources */,
+				CF70A13025A161AF00C74652 /* MainTabBarController.swift in Sources */,
 				CF70A05D259EC5E400C74652 /* ViewController.swift in Sources */,
 				CF70A059259EC5E400C74652 /* AppDelegate.swift in Sources */,
 				CF70A05B259EC5E400C74652 /* SceneDelegate.swift in Sources */,
+				CF70A12B25A1611000C74652 /* AnalsysViewController.swift in Sources */,
+				CF70A0BF259ED4A700C74652 /* DietViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CF70A05E259EC5E400C74652 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF70A05F259EC5E400C74652 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CF70A063259EC5ED00C74652 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,6 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = diet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = diet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
