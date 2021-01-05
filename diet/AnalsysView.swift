@@ -30,6 +30,19 @@ class AnalsysView: DietView {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("bbbb", for: .normal)
         button.setTitleColor(.black, for: .normal)
+        let heightTF = UITextField()
+        heightTF.frame = CGRect(x: 10, y: 100, width: UIScreen.main.bounds.size.width-20, height: 38)
+        // プレースホルダを設定
+        heightTF.placeholder = "入力してください。"
+        // キーボードタイプを指定
+        heightTF.keyboardType = .decimalPad
+        // 枠線のスタイルを設定
+        heightTF.borderStyle = .roundedRect
+        // 改行ボタンの種類を設定
+        heightTF.returnKeyType = .done
+        // テキストを全消去するボタンを表示
+        heightTF.clearButtonMode = .always
+        recodeView.addArrangedSubview(heightTF)
         let button1 = UIButton()
         button1.translatesAutoresizingMaskIntoConstraints = false
         button1.setTitle("bbbb", for: .normal)

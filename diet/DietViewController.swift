@@ -8,12 +8,19 @@
 import UIKit
 
 class DietViewController: UIViewController {
-    let a = RecodeView()
+    let recodeView = RecodeView()
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view = a
+        
+        self.view = recodeView
         // Do any additional setup after loading the view.
     }
+    @objc func tappedLeftBarButton() {
+        }
+     
+        // ボタンをタップしたときのアクション
+        @objc func tappedRightBarButton() {
+        }
     /*
     // MARK: - Navigation
 

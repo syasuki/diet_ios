@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 class DietView: UIView{
-    var a = UIView()
     init() {
         super.init(frame: .infinite)
     }

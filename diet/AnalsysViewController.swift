@@ -9,10 +9,10 @@ import Foundation
 import UIKit
 
 class AnalsysViewController: UIViewController {
-    let a = AnalsysView()
+    let analsysView = AnalsysView()
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view = a
+        self.view = analsysView
         // Do any additional setup after loading the view.
     }
     /*
