@@ -20,6 +20,7 @@
 		CF70A12B25A1611000C74652 /* AnalsysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A12A25A1611000C74652 /* AnalsysViewController.swift */; };
 		CF70A13025A161AF00C74652 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A12F25A161AF00C74652 /* MainTabBarController.swift */; };
 		CF70A13525A1BB4A00C74652 /* AnalsysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A13425A1BB4A00C74652 /* AnalsysView.swift */; };
+		CF70A13A25A685E700C74652 /* Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A13925A685E700C74652 /* Ex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		CF70A12A25A1611000C74652 /* AnalsysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalsysViewController.swift; sourceTree = "<group>"; };
 		CF70A12F25A161AF00C74652 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		CF70A13425A1BB4A00C74652 /* AnalsysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalsysView.swift; sourceTree = "<group>"; };
+		CF70A13925A685E700C74652 /* Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				CF70A12A25A1611000C74652 /* AnalsysViewController.swift */,
 				CF70A12F25A161AF00C74652 /* MainTabBarController.swift */,
 				CF70A13425A1BB4A00C74652 /* AnalsysView.swift */,
+				CF70A13925A685E700C74652 /* Ex.swift */,
 			);
 			path = diet;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				CF70A059259EC5E400C74652 /* AppDelegate.swift in Sources */,
 				CF70A05B259EC5E400C74652 /* SceneDelegate.swift in Sources */,
 				CF70A12B25A1611000C74652 /* AnalsysViewController.swift in Sources */,
+				CF70A13A25A685E700C74652 /* Ex.swift in Sources */,
 				CF70A0BF259ED4A700C74652 /* DietViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
