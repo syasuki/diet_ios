@@ -21,6 +21,9 @@
 		CF70A13025A161AF00C74652 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A12F25A161AF00C74652 /* MainTabBarController.swift */; };
 		CF70A13525A1BB4A00C74652 /* AnalsysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A13425A1BB4A00C74652 /* AnalsysView.swift */; };
 		CF70A13A25A685E700C74652 /* Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A13925A685E700C74652 /* Ex.swift */; };
+		CF70A13F25A68A8B00C74652 /* MonthDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A13E25A68A8B00C74652 /* MonthDateManager.swift */; };
+		CF70A14425A68AC400C74652 /* CalenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A14325A68AC400C74652 /* CalenderCell.swift */; };
+		CF70A14925A68C1800C74652 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A14825A68C1800C74652 /* CalenderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		CF70A12F25A161AF00C74652 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		CF70A13425A1BB4A00C74652 /* AnalsysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalsysView.swift; sourceTree = "<group>"; };
 		CF70A13925A685E700C74652 /* Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex.swift; sourceTree = "<group>"; };
+		CF70A13E25A68A8B00C74652 /* MonthDateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthDateManager.swift; sourceTree = "<group>"; };
+		CF70A14325A68AC400C74652 /* CalenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderCell.swift; sourceTree = "<group>"; };
+		CF70A14825A68C1800C74652 /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,9 @@
 				CF70A12F25A161AF00C74652 /* MainTabBarController.swift */,
 				CF70A13425A1BB4A00C74652 /* AnalsysView.swift */,
 				CF70A13925A685E700C74652 /* Ex.swift */,
+				CF70A13E25A68A8B00C74652 /* MonthDateManager.swift */,
+				CF70A14325A68AC400C74652 /* CalenderCell.swift */,
+				CF70A14825A68C1800C74652 /* CalenderView.swift */,
 			);
 			path = diet;
 			sourceTree = "<group>";
@@ -276,11 +285,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF70A0DB25A0054A00C74652 /* DietView.swift in Sources */,
+				CF70A13F25A68A8B00C74652 /* MonthDateManager.swift in Sources */,
 				CF70A0CB259FF70E00C74652 /* RecodeView.swift in Sources */,
 				CF70A13525A1BB4A00C74652 /* AnalsysView.swift in Sources */,
+				CF70A14925A68C1800C74652 /* CalenderView.swift in Sources */,
 				CF70A13025A161AF00C74652 /* MainTabBarController.swift in Sources */,
 				CF70A05D259EC5E400C74652 /* ViewController.swift in Sources */,
 				CF70A059259EC5E400C74652 /* AppDelegate.swift in Sources */,
+				CF70A14425A68AC400C74652 /* CalenderCell.swift in Sources */,
 				CF70A05B259EC5E400C74652 /* SceneDelegate.swift in Sources */,
 				CF70A12B25A1611000C74652 /* AnalsysViewController.swift in Sources */,
 				CF70A13A25A685E700C74652 /* Ex.swift in Sources */,
