@@ -60,6 +60,7 @@ class RecodeView: DietView{
         calender.translatesAutoresizingMaskIntoConstraints = false
         recodeView.addArrangedSubview(calender)
         calender.heightAnchor.constraint(equalToConstant: 600.0).isActive = true
+        /*
         let button = UIButton()
         recodeView.addArrangedSubview(button)
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -71,7 +72,7 @@ class RecodeView: DietView{
         button1.translatesAutoresizingMaskIntoConstraints = false
         button1.setTitle("aaaa", for: .normal)
         button1.setTitleColor(.black, for: .normal)
-        
+        */
         
     }
     required init?(coder adecoder: NSCoder) {

@@ -9,22 +9,22 @@ import UIKit
 
 final class CalendarCell: UICollectionViewCell {
 
-    private var label: UILabel = {
-        let it = UILabel()
-        it.textAlignment = .center
+    private var button: UIButton = {
+        let it = UIButton()
+        //it.textAlignment = .center
         it.translatesAutoresizingMaskIntoConstraints = false
         return it
     }()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        contentView.addSubview(label)
+        contentView.addSubview(button)
 
         NSLayoutConstraint.activate([
-            label.topAnchor.constraint(equalTo: contentView.topAnchor),
-            label.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
-            label.leftAnchor.constraint(equalTo: contentView.leftAnchor),
-            label.rightAnchor.constraint(equalTo: contentView.rightAnchor),
+            button.topAnchor.constraint(equalTo: contentView.topAnchor),
+            button.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
+            button.leftAnchor.constraint(equalTo: contentView.leftAnchor),
+            button.rightAnchor.constraint(equalTo: contentView.rightAnchor),
             ])
     }
 
@@ -33,8 +33,8 @@ final class CalendarCell: UICollectionViewCell {
     }
 
     func configure(model: Model) {
-         label.text = model.text
-         label.textColor = model.textColor
+        button.setTitle(model.text, for: .normal)
+        button.setTitleColor(model.textColor, for: .normal)
     }
 }
 

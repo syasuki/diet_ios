@@ -18,7 +18,7 @@ final class MonthDateManager {
     }
 
     var monthString: String {
-        return firstDate.string(format: "YYYY/MM")
+        return firstDate.string(format: "YYYY年M月")
     }
 
     init() {

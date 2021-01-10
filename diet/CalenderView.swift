@@ -21,7 +21,7 @@ class CalenderView: UIView {
         layout.scrollDirection = .vertical
         layout.minimumLineSpacing = 10
         layout.minimumInteritemSpacing = 10
-        layout.itemSize = CGSize(width: itemSize, height: 50)
+        layout.itemSize = CGSize(width: itemSize, height: 30)
         let collectionView = UICollectionView(frame: self.frame, collectionViewLayout: layout)
         collectionView.backgroundColor = .white
         collectionView.register(CalendarCell.self, forCellWithReuseIdentifier: "cell")
@@ -46,14 +46,14 @@ class CalenderView: UIView {
         calenderSV.distribution = .fill
         calenderSV.backgroundColor = .clear
         calenderSV.frame.size.width = UIScreen.main.bounds.width
-        calenderSV.frame.size.height = 600
+        calenderSV.frame.size.height = 550
         self.addSubview(calenderSV)
         let calenderTopSV = UIStackView()
         calenderTopSV.axis = .horizontal
         calenderTopSV.alignment = .fill
         calenderTopSV.distribution = .fillEqually
         calenderTopSV.backgroundColor = .lightBlue
-        calenderTopSV.frame.size.height = 90
+        calenderTopSV.frame.size.height = 10
         calenderTopSV.addArrangedSubview(prevButton)
         calenderTopSV.addArrangedSubview(title)
         calenderTopSV.addArrangedSubview(nextButton)

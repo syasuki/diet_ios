@@ -12,6 +12,7 @@ class AnalsysViewController: UIViewController {
     let analsysView = AnalsysView()
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "分析"
         self.view = analsysView
         // Do any additional setup after loading the view.
     }

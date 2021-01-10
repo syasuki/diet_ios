@@ -11,7 +11,7 @@ class DietViewController: UIViewController {
     let recodeView = RecodeView()
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "記録"
         self.view = recodeView
         // Do any additional setup after loading the view.
     }
