@@ -35,6 +35,7 @@ final class CalendarCell: UICollectionViewCell {
     func configure(model: Model) {
         button.setTitle(model.text, for: .normal)
         button.setTitleColor(model.textColor, for: .normal)
+        //button.addTarget(self, action: #selector(print1(sender: )), for: .touchUpInside)
     }
 }
 
@@ -44,6 +45,9 @@ extension CalendarCell {
     struct Model {
         var text: String = ""
         var textColor: UIColor = .black
+    }
+    @objc private func print1(sender: Any) {
+        print((sender as! UIButton).titleLabel?.text ?? "なし")
     }
 }
 

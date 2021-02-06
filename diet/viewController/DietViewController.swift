@@ -1,21 +1,26 @@
 //
-//  AnalsysViewController.swift
+//  DietViewController.swift
 //  diet
 //
-//  Created by 杉本靖樹 on 2021/01/03.
+//  Created by 杉本靖樹 on 2021/01/01.
 //
 
-import Foundation
 import UIKit
 
-class AnalsysViewController: UIViewController {
-    let analsysView = AnalsysView()
+class DietViewController: UIViewController {
+    let recodeRegistView = RecodeRegistView()
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "分析"
-        self.view = analsysView
+        self.title = "記録"
+        self.view = recodeRegistView
         // Do any additional setup after loading the view.
     }
+    @objc func tappedLeftBarButton() {
+        }
+     
+        // ボタンをタップしたときのアクション
+        @objc func tappedRightBarButton() {
+        }
     /*
     // MARK: - Navigation
 

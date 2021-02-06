@@ -46,28 +46,30 @@ class CalenderView: UIView {
         calenderSV.distribution = .fill
         calenderSV.backgroundColor = .clear
         calenderSV.frame.size.width = UIScreen.main.bounds.width
-        calenderSV.frame.size.height = 550
+        calenderSV.frame.size.height = 350
         self.addSubview(calenderSV)
         let calenderTopSV = UIStackView()
         calenderTopSV.axis = .horizontal
         calenderTopSV.alignment = .fill
         calenderTopSV.distribution = .fillEqually
-        calenderTopSV.backgroundColor = .lightBlue
+        calenderTopSV.backgroundColor = .white
         calenderTopSV.frame.size.height = 10
         calenderTopSV.addArrangedSubview(prevButton)
         calenderTopSV.addArrangedSubview(title)
         calenderTopSV.addArrangedSubview(nextButton)
         prevButton.setTitle("先月", for:UIControl.State.normal)
+        prevButton.setTitleColor(.black, for: UIControl.State.normal)
         prevButton.addTarget(self, action: #selector(actionBack(sender: )), for: .touchUpInside)
         title.text = dateManager.monthString
         title.textAlignment = .center
         nextButton.setTitle("次月", for: .normal)
+        nextButton.setTitleColor(.black, for: UIControl.State.normal)
         nextButton.addTarget(self, action: #selector(actionNext(sender: )), for: .touchUpInside)
         calenderSV.addArrangedSubview(calenderTopSV)
         
         //カレンダー部分作成
         calenderCollectionView.frame.size.width = UIScreen.main.bounds.width
-        calenderCollectionView.heightAnchor.constraint(equalToConstant: 500.0).isActive = true
+        calenderCollectionView.heightAnchor.constraint(equalToConstant: 300.0).isActive = true
         calenderSV.addArrangedSubview(calenderCollectionView)
         
         //setUpNavigationBar()

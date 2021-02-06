@@ -17,7 +17,9 @@ class RecodeView: DietView{
     }
     func setup(){
         self.backgroundColor = .white
+        /*
         let recodeView = UIStackView()
+        
         recodeView.translatesAutoresizingMaskIntoConstraints = false
         recodeView.axis = .vertical
         recodeView.alignment = .fill
@@ -27,6 +29,7 @@ class RecodeView: DietView{
         recodeView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
         recodeView.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
         recodeView.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
+ */
         /*
          let heightSV = UIStackView()
          heightSV.axis = .horizontal
@@ -58,8 +61,33 @@ class RecodeView: DietView{
          */
         let calender = CalenderView()
         calender.translatesAutoresizingMaskIntoConstraints = false
-        recodeView.addArrangedSubview(calender)
-        calender.heightAnchor.constraint(equalToConstant: 600.0).isActive = true
+        self.addSubview(calender)
+        calender.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+        calender.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
+        calender.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
+        calender.heightAnchor.constraint(equalToConstant: 350.0).isActive = true
+        let weightSV = UIStackView()
+        weightSV.translatesAutoresizingMaskIntoConstraints = false
+        weightSV.axis = .horizontal
+        weightSV.alignment = .fill
+        weightSV.distribution = .fill
+        self.addSubview(weightSV)
+        weightSV.topAnchor.constraint(equalTo: calender.bottomAnchor).isActive = true
+        weightSV.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
+        weightSV.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
+        weightSV.heightAnchor.constraint(equalToConstant: 50.0).isActive = true
+        weightSV.backgroundColor = .blue
+        let weightSV1 = UIStackView()
+        weightSV1.translatesAutoresizingMaskIntoConstraints = false
+        weightSV1.axis = .horizontal
+        weightSV1.alignment = .fill
+        weightSV1.distribution = .fill
+        self.addSubview(weightSV1)
+        weightSV1.backgroundColor = .red
+        weightSV1.topAnchor.constraint(equalTo: weightSV.bottomAnchor).isActive = true
+        weightSV1.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
+        weightSV1.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
+        weightSV1.heightAnchor.constraint(equalToConstant: 50.0).isActive = true
         /*
         let button = UIButton()
         recodeView.addArrangedSubview(button)
