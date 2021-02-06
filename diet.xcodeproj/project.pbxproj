@@ -24,6 +24,8 @@
 		CF70A13F25A68A8B00C74652 /* MonthDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A13E25A68A8B00C74652 /* MonthDateManager.swift */; };
 		CF70A14425A68AC400C74652 /* CalenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A14325A68AC400C74652 /* CalenderCell.swift */; };
 		CF70A14925A68C1800C74652 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70A14825A68C1800C74652 /* CalenderView.swift */; };
+		CF8D3A3925AFB6FC004C96F6 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8D3A3825AFB6FC004C96F6 /* CalenderViewController.swift */; };
+		CF8D3A3E25AFBA3B004C96F6 /* RecodeRegistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8D3A3D25AFBA3B004C96F6 /* RecodeRegistView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		CF70A13E25A68A8B00C74652 /* MonthDateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthDateManager.swift; sourceTree = "<group>"; };
 		CF70A14325A68AC400C74652 /* CalenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderCell.swift; sourceTree = "<group>"; };
 		CF70A14825A68C1800C74652 /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		CF8D3A3825AFB6FC004C96F6 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		CF8D3A3D25AFBA3B004C96F6 /* RecodeRegistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecodeRegistView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,22 +121,16 @@
 		CF70A057259EC5E400C74652 /* diet */ = {
 			isa = PBXGroup;
 			children = (
+				CFD0E6B325CE1E3B0058364A /* components */,
+				CFD0E6B225CE1DD40058364A /* viewController */,
+				CFD0E6B125CE1DBA0058364A /* view */,
 				CF70A058259EC5E400C74652 /* AppDelegate.swift */,
 				CF70A05A259EC5E400C74652 /* SceneDelegate.swift */,
-				CF70A05C259EC5E400C74652 /* ViewController.swift */,
 				CF70A061259EC5ED00C74652 /* Assets.xcassets */,
 				CF70A063259EC5ED00C74652 /* LaunchScreen.storyboard */,
 				CF70A066259EC5ED00C74652 /* Info.plist */,
-				CF70A0BD259ED4A700C74652 /* DietViewController.swift */,
-				CF70A0CA259FF70E00C74652 /* RecodeView.swift */,
-				CF70A0DA25A0054A00C74652 /* DietView.swift */,
-				CF70A12A25A1611000C74652 /* AnalsysViewController.swift */,
 				CF70A12F25A161AF00C74652 /* MainTabBarController.swift */,
-				CF70A13425A1BB4A00C74652 /* AnalsysView.swift */,
 				CF70A13925A685E700C74652 /* Ex.swift */,
-				CF70A13E25A68A8B00C74652 /* MonthDateManager.swift */,
-				CF70A14325A68AC400C74652 /* CalenderCell.swift */,
-				CF70A14825A68C1800C74652 /* CalenderView.swift */,
 			);
 			path = diet;
 			sourceTree = "<group>";
@@ -153,6 +151,38 @@
 				CF70A07C259EC5EE00C74652 /* Info.plist */,
 			);
 			path = dietUITests;
+			sourceTree = "<group>";
+		};
+		CFD0E6B125CE1DBA0058364A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CF8D3A3D25AFBA3B004C96F6 /* RecodeRegistView.swift */,
+				CF70A13425A1BB4A00C74652 /* AnalsysView.swift */,
+				CF70A0DA25A0054A00C74652 /* DietView.swift */,
+				CF70A0CA259FF70E00C74652 /* RecodeView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CFD0E6B225CE1DD40058364A /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF70A05C259EC5E400C74652 /* ViewController.swift */,
+				CF70A12A25A1611000C74652 /* AnalsysViewController.swift */,
+				CF70A0BD259ED4A700C74652 /* DietViewController.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		CFD0E6B325CE1E3B0058364A /* components */ = {
+			isa = PBXGroup;
+			children = (
+				CF70A14825A68C1800C74652 /* CalenderView.swift */,
+				CF8D3A3825AFB6FC004C96F6 /* CalenderViewController.swift */,
+				CF70A14325A68AC400C74652 /* CalenderCell.swift */,
+				CF70A13E25A68A8B00C74652 /* MonthDateManager.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,11 +318,13 @@
 				CF70A13F25A68A8B00C74652 /* MonthDateManager.swift in Sources */,
 				CF70A0CB259FF70E00C74652 /* RecodeView.swift in Sources */,
 				CF70A13525A1BB4A00C74652 /* AnalsysView.swift in Sources */,
+				CF8D3A3925AFB6FC004C96F6 /* CalenderViewController.swift in Sources */,
 				CF70A14925A68C1800C74652 /* CalenderView.swift in Sources */,
 				CF70A13025A161AF00C74652 /* MainTabBarController.swift in Sources */,
 				CF70A05D259EC5E400C74652 /* ViewController.swift in Sources */,
 				CF70A059259EC5E400C74652 /* AppDelegate.swift in Sources */,
 				CF70A14425A68AC400C74652 /* CalenderCell.swift in Sources */,
+				CF8D3A3E25AFBA3B004C96F6 /* RecodeRegistView.swift in Sources */,
 				CF70A05B259EC5E400C74652 /* SceneDelegate.swift in Sources */,
 				CF70A12B25A1611000C74652 /* AnalsysViewController.swift in Sources */,
 				CF70A13A25A685E700C74652 /* Ex.swift in Sources */,

@@ -25,16 +25,19 @@ private extension MainTabBarController {
     func setupTab() {
         
         var tempViewControllers: [UIViewController] = []
+        
         let firstViewController: DietViewController? = DietViewController()
-                firstViewController?.tabBarItem = UITabBarItem(title: "First", image: UIImage(named: "tab-icon-sample"), tag: 1)
+                firstViewController?.tabBarItem = UITabBarItem(title: "記録", image: UIImage(named: "tab-icon-sample"), tag: 1)
         let firstNavigationController = UINavigationController(rootViewController: firstViewController!)
                 tempViewControllers.append(firstNavigationController)
-        let secondViewController: DietViewController? = DietViewController()
-        secondViewController?.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarItem.SystemItem.downloads, tag: 2)
+        
+        let secondViewController: CalenderViewController? = CalenderViewController()
+        secondViewController?.tabBarItem = UITabBarItem(title: "カレンダー", image: UIImage(named: "tab-icon-sample"), tag: 2)
         let secondNavigationController = UINavigationController(rootViewController: secondViewController!)
                 tempViewControllers.append(secondNavigationController)
+        
         let thirdViewController: AnalsysViewController? = AnalsysViewController()
-        thirdViewController?.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarItem.SystemItem.history, tag: 3)
+        thirdViewController?.tabBarItem = UITabBarItem(title: "分析", image: UIImage(named: "tab-icon-sample"), tag: 3)
         let thirdNavigationController = UINavigationController(rootViewController: thirdViewController!)
                 tempViewControllers.append(thirdNavigationController)
         /*
