@@ -1,46 +1,25 @@
 //
-//  RecodeRegistView.swift
+//  AnalsysView.swift
 //  diet
 //
-//  Created by 杉本靖樹 on 2021/01/14.
+//  Created by 杉本靖樹 on 2021/01/03.
 //
 
 import UIKit
-
-class RecodeRegistView: DietView {
+import RealmSwift
+@IBDesignable
+class AnalsysView: DietView {
 
     override init() {
         super.init()
         setup()
     }
-    
     func setup(){
+        let realm = try! Realm()
+        
+        print(Realm.Configuration.defaultConfiguration.fileURL!)
+        
         self.backgroundColor = .white
-        let inputView = UIStackView()
-        inputView.translatesAutoresizingMaskIntoConstraints = false
-        inputView.axis = .horizontal
-        inputView.alignment = .fill
-        inputView.distribution = .fill
-        inputView.backgroundColor = .clear
-        
-        self.addSubview(inputView)
-        inputView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
-        inputView.heightAnchor.constraint(equalToConstant: 30).isActive = true
-        inputView.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
-        inputView.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
-        
-        let text = UILabel()
-        text.text = "体重"
-        text.translatesAutoresizingMaskIntoConstraints = false
-        text.widthAnchor.constraint(equalToConstant: 60).isActive = true
-        text.backgroundColor = .clear
-        inputView.addArrangedSubview(text)
-        let inputField = UITextField()
-        inputField.translatesAutoresizingMaskIntoConstraints = false
-        inputField.heightAnchor.constraint(equalToConstant: 20).isActive = true
-        inputField.borderStyle = .roundedRect
-        inputView.addArrangedSubview(inputField)
-        /*
         let recodeView = UIStackView()
         recodeView.translatesAutoresizingMaskIntoConstraints = false
         recodeView.axis = .vertical
@@ -74,7 +53,6 @@ class RecodeRegistView: DietView {
         button1.setTitleColor(.black, for: .normal)
         recodeView.addArrangedSubview(button)
         recodeView.addArrangedSubview(button1)
- */
     }
     required init?(coder adecoder: NSCoder) {
         super.init(coder: adecoder)

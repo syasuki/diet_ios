@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 class CalenderView: UIView {
     
     private let dateManager = MonthDateManager()
@@ -39,6 +38,7 @@ class CalenderView: UIView {
         super.init(coder: adecoder)
     }
     private func setup(){
+        
         self.backgroundColor = .white
         let calenderSV = UIStackView()
         calenderSV.axis = .vertical

@@ -7,15 +7,17 @@
 
 import Foundation
 import UIKit
+import RealmSwift
 
 @IBDesignable
-class RecodeView: DietView{
+class ScheduleView: DietView{
     
     override init() {
         super.init()
         setup()
     }
     func setup(){
+        
         self.backgroundColor = .white
         /*
         let recodeView = UIStackView()
